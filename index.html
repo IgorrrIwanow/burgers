@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="post" class="form">
+        <label class="big-burger">
+            <input type="radio" name="radio" id="bigOne" data-price="100" data-cal="40" class="big-burger-btn">
+            Большой гамбургер - Цена: 100; Каллорий: 40;
+        </label>
+        <label class="small-burger">
+            <input type="radio" name="radio" id="smallOne" data-price="50" data-cal="20" class="small-burger-btn">
+            Маленький гамбургер - Цена: 50; Каллорий: 20;
+        </label>
+        <hr>
+        <label class="checkbox-btn">
+            <input type="checkbox" id="chize" data-price="10" data-cal="20" class="check">
+            Добавить сыр - Цена: +10; Каллорий: +20;
+        </label>
+        <label class="checkbox-btn">
+            <input type="checkbox" data-price="20" data-cal="5" class="check">
+            Добавить салат - Цена: +20; Каллорий: +5;
+        </label>
+        <label class="checkbox-btn">
+            <input type="checkbox" data-price="15" data-cal="10" class="check">
+            Добавить картофель - Цена: +15; Каллорий: +10;
+        </label>
+        <hr>
+        <label class="checkbox-btn">
+            <input type="checkbox" data-price="15" data-cal="0" class="check">
+            Добавить приправу - Цена: +15; Каллорий: +0;
+        </label>
+        <label class="checkbox-btn">
+            <input type="checkbox" data-price="20" data-cal="5" class="check">
+            Добавить майонез - Цена: +20; Каллорий: +5;
+        </label>
+        <input type="submit" value="Купить" class="buy-btn">
+    </form>
+    <p class="price">Цена гамбургера:<span class="total-price">0</span></p>
+    <p class="cal">Количество каллорий:<span class="total-cal">0</span></p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

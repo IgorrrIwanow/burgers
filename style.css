@@ -1,0 +1,20 @@
+.form {
+    width: 500px;
+    border: 1px solid black;
+}
+
+.big-burger {
+    display: block;
+}
+
+.small-burger {
+    display: block;
+}
+
+.checkbox-btn {
+    display: block;
+}
+
+.buy-btn {
+    margin: 10px 0 10px 10px;
+}
